@@ -26,3 +26,40 @@ body {
   align-items: center;
   padding: 1rem;
 }
+header {
+  font-size: 2rem;
+  color: black;
+  text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding: 1rem;
+}
+
+.todo-add {
+  width: 90%;
+  display: flex;
+  margin-top: 1rem;
+  font-size: 0.5rem;
+}
+#todo-input {
+  width: 80%;
+  margin-right: 10px;
+  border-color: #fff;
+  border-radius: 10px;
+  outline: none;
+  padding: 0.5rem;
+}
+
+#todo-button {
+  width: 20%;
+  padding: 0.7rem;
+  background-color: #5d20bf;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+}
+
+#todo-button:hover {
+  opacity: 0.5;
+}
