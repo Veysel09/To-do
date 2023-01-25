@@ -117,3 +117,8 @@ li.checked p {
   text-decoration: line-through;
   font-weight: normal;
 }
+@media screen and (max-width: 576px) {
+  li p {
+    font-size: 0.8rem;
+  }
+}
