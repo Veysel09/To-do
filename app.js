@@ -19,3 +19,12 @@ const renderSavedTodos = () => {
 };
 
 renderSavedTodos();
+addBtn.addEventListener("click", () => {
+  if (todoInput.value.trim() === "") {
+    alert("PLease enter new todo");
+  } else {
+    const newTodo = {
+      id: new Date().getTime(),
+      completed: false,
+      text: todoInput.value,
+    };
