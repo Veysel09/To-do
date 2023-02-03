@@ -6,7 +6,8 @@
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  background-blend-mode: multiply, multiply;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -52,17 +53,19 @@ header {
 #todo-button {
   width: 20%;
   padding: 0.7rem;
-  background-color: #5d20bf;
+  background-color: #2d253b;
   color: #fff;
   font-size: 1rem;
   font-weight: bold;
-  border-radius: 10px;
+  border-radius: 100px;
   border: none;
+  transition: 0.5s all;
 }
 
-#todo-button:hover {
-  opacity: 0.5;
+#todo-button:active {
+  transform: scale(0.9);
 }
+
 .todos {
   width: 90%;
   margin-top: 2rem;
